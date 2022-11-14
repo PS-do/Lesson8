@@ -11,6 +11,9 @@ namespace Task1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("1.    Обязательная задача*.\n" +
+                " Выберите любую папку на своем компьютере, имеющую вложенные директории.\n" +
+                " Выведите на консоль ее содержимое и содержимое всех подкаталогов.");
             string path = @"D:\LessonTemp";
             //string[] files = Directory.GetFiles(path, "*.txt", SearchOption.AllDirectories);
             string[] directories = Directory.GetDirectories(path);
